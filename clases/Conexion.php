@@ -35,7 +35,7 @@ class Conexion {
             $puerto = "27017";
             $usuario = "mongoadmin";
             $password = "123456";
-            $BD = "mascotas";
+            $BD = "aylin_mascotas";
 
             $cadenaConexion = "mongodb://$usuario:$password@$servidor:$puerto/$BD";
             $cliente = new MongoDB\Client($cadenaConexion);
